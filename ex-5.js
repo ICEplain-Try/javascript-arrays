@@ -22,3 +22,11 @@ const employees = [
 ];
 
 // Start coding here
+
+// ต้องการลบ object ที่เกี่ยวกับ "Kody" ใน arrays ที่ชื่อ employees
+delete employees[3];
+
+// ถ้าเป็น index ลำดับสุดท้ายก็สามารถใช้คำสั่ง employees.pop(); ก็ได้
+
+// แสดงผลด้วย console.log();
+console.log (employees);
